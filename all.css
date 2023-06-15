@@ -1,0 +1,303 @@
+@charset "UTF-8";
+
+@media (orientation: landscape) {
+  html {
+    --content-size: 100vh;
+  }
+}
+
+@media (orientation: portrait) {
+  html {
+    --content-size: 100vw;
+  }
+}
+
+html {
+  --color-background: #ece9d6;
+  --color-text: #292523;
+  --color-title: #000;
+  --color-link: #6d071a;
+  --color-text-cite: #57083d;
+  --color-text-subtle: #666;
+  --color-shadow: #c2bfad;
+
+  --font-family-body: "Baskerville",
+                      "Libre Baskerville",
+                      "Baskerville Old Face",
+                      "New Baskerville",
+                      "Century Schoolbook",
+                      ui-serif,
+                      serif;
+
+  --font-family-title: "Didot",
+                      "Didot LT Std",
+                      "Bodoni MT",
+                      "Bodoni 72",
+                      "Modern No. 20",
+                      "GFS Didot",
+                      serif;
+
+  --font-family-quote: "Palatino",
+                      "Palatino Linotype",
+                      "Book Antiqua",
+                      "Iowan Old Style",
+                      "Optima",
+                      serif;
+
+  --font-family-dialogue: "Scala Sans Pro",
+                        "Gill Sans",
+                        "Gill Sans MT",
+                        "Avenir",
+                        "Futura",
+                        sans-serif;
+
+  --font-size-1: calc(var(--content-size)/15);
+  --font-size-2: calc(var(--content-size)/20);
+  --font-size-3: calc(var(--content-size)/25);
+  --font-size-4: calc(var(--content-size)/30);
+
+  --side-padding: calc(1vw + 8px);
+
+  margin: 0;
+  padding: 0;
+
+  font-size: var(--font-size-4);
+}
+
+h1 {
+  font-size: var(--font-size-1);
+}
+
+h2 {
+  font-size: var(--font-size-2);
+}
+
+h3 {
+  font-size: var(--font-size-3);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family-body);
+  line-height: 1.7;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: var(--side-padding) 0;
+  overflow-x: hidden;
+}
+
+small,
+aside,
+[aria-label="breadcrumb"],
+footer {
+  color: var(--color-text-subtle);
+}
+
+blockquote,
+html > *,
+body > main,
+body > main > * {
+  display: flex;
+  flex-flow: column;
+  row-gap: var(--side-padding);
+}
+
+html[dir="ltr"] blockquote > * {
+  margin: 0 0 0 var(--side-padding);
+  padding: 0 0 0 var(--side-padding);
+  border-left: thin solid var(--color-shadow);
+}
+
+html[dir="rtl"] blockquote > * {
+  margin: 0 var(--side-padding) 0 0;
+  padding: 0 var(--side-padding) 0 0;
+  border-right: thin solid var(--color-shadow);
+}
+
+html[dir="rtl"] header img {
+  transform: scaleX(-1);
+}
+
+body > header {
+  /* Enable flexbox layout */
+  display: flex;
+
+  /* Handle RTL/LTR automatically based on dir attribute */
+  flex-direction: row;
+
+  /* Align items vertically */
+  align-items: flex-end;
+
+  /* Allow items to wrap if needed */
+  flex-wrap: nowrap;
+
+  margin: 0;
+  padding: 0;
+}
+
+body > header a {
+  color: var(--color-title);
+}
+
+/* Make the image square while maintaining aspect ratio */
+body > header img {
+  /* Ensure image maintains aspect ratio */
+  object-fit: contain;
+
+  /* Prevent image from shrinking */
+  flex-shrink: 0;
+
+  display: block;
+  height: 3em;
+  width: auto;
+}
+
+/* Allow nav to take remaining space */
+body > header nav[aria-label="breadcrumb"] {
+  flex: 1;
+
+  /* Add some spacing between image and nav */
+  margin-inline-start: 1rem;
+}
+
+body > header > nav[aria-label="breadcrumb"] ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body > header > nav[aria-label="breadcrumb"] ol li {
+  display: inline;
+  font-weight: lighter;
+}
+
+body > header > nav[aria-label="breadcrumb"] ol li:not(:last-child)::after {
+  content: " \00BB"; /* Unicode for &raquo; */
+  margin: 0 5px;
+}
+
+body > main > article li,
+body > main > article dd {
+  margin-inline: 2em;
+}
+
+body > main > nav li {
+  margin-inline: var(--side-padding);
+}
+
+body > *:not(main),
+body > main > * > *:not(picture) {
+  margin: 0;
+  padding: 0.4em var(--side-padding);
+}
+
+body > main > article > picture > img {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body > main > * blockquote,
+body > main > * ol,
+body > main > * ul {
+  margin: 0;
+  padding: 0;
+}
+
+body > main > article p {
+  text-align: justify;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-title);
+  font-family: var(--font-family-title);
+  line-height: 1.3;
+  text-shadow: .03em .03em var(--color-shadow);
+}
+
+a {
+  color: var(--color-link);
+}
+
+blockquote {
+  font-family: var(--font-family-quote);
+  color: var(--color-text-subtle);
+  font-weight: lighter;
+}
+
+q {
+  font-family: var(--font-family-dialogue);
+  color: var(--color-text-cite);
+}
+
+:lang(fr) q::before {
+    content: "« ";
+    margin-right: 0.1em;
+}
+
+:lang(fr) q::after {
+    content: " »";
+    margin-left: 0.1em;
+}
+
+:lang(en) q::before {
+    content: "\201C"; /* Unicode for " */
+}
+
+:lang(en) q::after {
+    content: "\201D"; /* Unicode for " */
+}
+
+:lang(th) q::before {
+    content: "\201C"; /* Unicode for " */
+}
+
+:lang(th) q::after {
+    content: "\201D"; /* Unicode for " */
+}
+
+:lang(zh) q::before {
+    content: "「";
+}
+
+:lang(zh) q::after {
+    content: "」";
+}
+
+:lang(ja) q::before {
+    content: "「";
+}
+
+:lang(ja) q::after {
+    content: "」";
+}
+
+:lang(fr) q q::before {
+    content: "‹ ";
+}
+
+:lang(fr) q q::after {
+    content: " ›";
+}
+
+:lang(en) q q::before {
+    content: "\2018"; /* Unicode for ' */
+}
+
+:lang(en) q q::after {
+    content: "\2019"; /* Unicode for ' */
+}
+
+:lang(zh) q q::before,
+:lang(ja) q q::before {
+    content: "『";
+}
+
+:lang(zh) q q::after,
+:lang(ja) q q::after {
+    content: "』";
+}
