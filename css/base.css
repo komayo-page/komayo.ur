@@ -1,9 +1,0 @@
-main article figure {
-  margin: 1em 0;
-}
-
-main article figure img {
-  border-radius: 1em;
-  max-width: min(100vw, 1024px);
-  width: 100%;
-}
