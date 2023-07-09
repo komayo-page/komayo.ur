@@ -3,7 +3,12 @@ self.addEventListener('install', (event) => {
     caches.open('v1').then((cache) => {
       return cache.addAll([
         '/',
-        '/img/komayo-in-ogi-game-with-victim.webp',
+        '/css/pico.classless.min.css',
+        '/favicon-512x512.png',
+        '/favicon.svg',
+        '/manifest.json',
+        '/soye-hue-mukhalif-par-muskura-raha-hai.png',
+        '/soye-hue-mukhalif-par-muskura-raha-hai.webp',
       ]);
     })
   );
