@@ -14,6 +14,7 @@
 
 
 
+
     <url>
       <loc>https://en.komayo.page/</loc>
       <lastmod>2023-06-26</lastmod>
@@ -23,10 +24,12 @@
 
 
 
+
     <url>
       <loc>https://fa.komayo.page/</loc>
       <lastmod>2023-06-26</lastmod>
     </url>
+
 
 
 
@@ -58,6 +61,11 @@
       </url>
 
       <url>
+        <loc>https://fr.komayo.page/recits/le-souffle-du-renard/</loc>
+        <lastmod>2023-06-26</lastmod>
+      </url>
+
+      <url>
         <loc>https://fr.komayo.page/a-propos/</loc>
         <lastmod>2023-06-26</lastmod>
       </url>
@@ -65,6 +73,7 @@
       <loc>https://gu.komayo.page/</loc>
       <lastmod>2023-06-26</lastmod>
     </url>
+
 
 
 
@@ -79,10 +88,12 @@
 
 
 
+
     <url>
       <loc>https://id.komayo.page/</loc>
       <lastmod>2023-06-26</lastmod>
     </url>
+
 
 
 
@@ -97,10 +108,12 @@
 
 
 
+
     <url>
       <loc>https://jv.komayo.page/</loc>
       <lastmod>2023-06-26</lastmod>
     </url>
+
 
 
 
@@ -115,10 +128,12 @@
 
 
 
+
     <url>
       <loc>https://ko.komayo.page/</loc>
       <lastmod>2023-06-26</lastmod>
     </url>
+
 
 
 
@@ -133,10 +148,12 @@
 
 
 
+
     <url>
       <loc>https://ml.komayo.page/</loc>
       <lastmod>2023-06-26</lastmod>
     </url>
+
 
 
 
@@ -151,10 +168,12 @@
 
 
 
+
     <url>
       <loc>https://my.komayo.page/</loc>
       <lastmod>2023-06-26</lastmod>
     </url>
+
 
 
 
@@ -169,10 +188,12 @@
 
 
 
+
     <url>
       <loc>https://pa.komayo.page/</loc>
       <lastmod>2023-06-26</lastmod>
     </url>
+
 
 
 
@@ -187,10 +208,12 @@
 
 
 
+
     <url>
       <loc>https://te.komayo.page/</loc>
       <lastmod>2023-06-26</lastmod>
     </url>
+
 
 
 
@@ -205,10 +228,12 @@
 
 
 
+
     <url>
       <loc>https://ur.komayo.page/</loc>
       <lastmod>2023-06-26</lastmod>
     </url>
+
 
 
 
@@ -223,10 +248,12 @@
 
 
 
+
     <url>
       <loc>https://zh.komayo.page/</loc>
       <lastmod>2023-06-26</lastmod>
     </url>
+
 
 
 
