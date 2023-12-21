@@ -1,45 +1,46 @@
 @charset "utf-8";
 
+:root {
+  --font-primary: 'Garamond', serif;
+  --font-secondary: 'Cinzel', serif;
+  --font-tertiary: 'Playfair Display', serif;
+  --font-quaternary: 'Lato', sans-serif;
+}
+
 body {
-  font-family: 'Garamond', serif;
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  letter-spacing: 0.025em;
 }
 
-article h1 {
-  font-family: 'Cinzel', serif;
-  font-size: 3em;
-  font-weight: bold;
-  margin-bottom: 0.5em;
-}
-
-article h2 {
-  font-family: 'Cinzel', serif;
-  font-size: 2.5em;
-  font-weight: bold;
-  margin-bottom: 0.5em;
-}
-
+article h1,
+article h2,
 article h3 {
-  font-family: 'Cinzel', serif;
-  font-size: 2em;
-  font-weight: bold;
-  margin-bottom: 0.5em;
+  font-family: var(--font-secondary);
+  line-height: 1.3;
+  letter-spacing: 0.02em;
 }
 
-article p {
-  font-family: 'Playfair Display', serif;
-  text-align: justify;
+article p,
+article blockquote {
+  font-family: var(--font-tertiary);
+  line-height: 1.7;
+  letter-spacing: 0.025em;
 }
 
 article q {
-  font-family: 'Lato', sans-serif;
+  font-family: var(--font-quaternary);
+  line-height: 1.5;
+  letter-spacing: 0.015em;
+}
+
+article p {
+  text-align: justify;
 }
 
 article blockquote {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.1em;
   margin-left: 2em;
   margin-right: 2em;
-  line-height: 1.6;
 }
 
 img {

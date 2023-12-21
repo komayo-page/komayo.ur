@@ -1,5 +1,17 @@
 @charset "utf-8";
 
+@media (orientation: landscape) {
+  :root {
+    --content-size: 100vh;
+  }
+}
+
+@media (orientation: portrait) {
+  :root {
+    --content-size: 100vw;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --background-color: #f8f5e6;
@@ -19,12 +31,50 @@
 }
 
 :root {
-  margin: 1em;
+  --font-size-4: calc(var(--content-size)/10);
+  --font-size-3: calc(var(--content-size)/20);
+  --font-size-2: calc(var(--content-size)/30);
+  --font-size-1: calc(var(--content-size)/40);
+
+  --margin-size: calc(var(--content-size)/100);
+
   background-color: var(--background-color);
   color: var(--color);
   text-shadow: var(--text-shadow) 1px 1px;
 }
 
+html,
+body {
+  padding: 0 var(--font-size-1);
+}
+
+body {
+  font-size: var(--font-size-1);
+}
+
+h1 {
+  font-size: var(--font-size-4);
+  margin: var(--font-size-4) 0;
+}
+
+h2 {
+  font-size: var(--font-size-3);
+  margin: var(--font-size-3) 0;
+}
+
+h3 {
+  font-size: var(--font-size-2);
+  margin: var(--font-size-2) 0;
+}
+
+p {
+  margin: var(--font-size-1) 0;
+}
+
 a {
   color: var(--link-color);
+}
+
+img {
+  border-radius: 5%;
 }
