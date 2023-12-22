@@ -19,3 +19,7 @@ img {
   max-width: 100%;
   page-break-inside: avoid;
 }
+
+body > nav {
+  display: none;
+}
