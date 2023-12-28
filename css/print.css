@@ -5,21 +5,16 @@
 }
 
 h1,
-h2,
 blockquote,
 p {
   break-inside: avoid;
 }
 
-h3 {
+h2 {
   break-before: always;
 }
 
 img {
   max-width: 100%;
   page-break-inside: avoid;
-}
-
-body > nav {
-  display: none;
 }
