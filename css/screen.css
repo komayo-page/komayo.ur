@@ -12,7 +12,7 @@
   }
 }
 
-@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+@media (prefers-color-scheme: light) {
   :root {
     --background-color: #d3d3d3;
     --color: black;
@@ -41,15 +41,17 @@
 
   background-color: var(--background-color);
   color: var(--color);
-}
-
-html,
-body {
-  padding: 0 var(--font-size-1);
-}
-
-body {
   font-size: var(--font-size-1);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: var(--font-size-1) var(--font-size-2);
+  padding: 0;
 }
 
 h1 {
@@ -69,10 +71,6 @@ p {
 a,
 q {
   color: var(--link-color);
-}
-
-body > header {
-  margin-top: var(--font-size-1);
 }
 
 body > article {
