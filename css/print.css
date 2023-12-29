@@ -5,7 +5,6 @@
 }
 
 h1,
-blockquote,
 p {
   break-inside: avoid;
 }
@@ -17,4 +16,13 @@ h2 {
 img {
   max-width: 100%;
   page-break-inside: avoid;
+}
+
+nav {
+  display: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
