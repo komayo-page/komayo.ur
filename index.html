@@ -48,9 +48,28 @@
     <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg">
 
     <style media="screen">
-      :root {
-        --article-title-text-color: #fff;
-        --article-title-shadow-color: #333;
+      @media (prefers-color-scheme: light) {
+        :root {
+          --background-color: white;
+          --color: black;
+          --link-color: #6d071a;
+          --quote-color: #6d071a;
+          --shadow-color: #ccc;
+          --article-title-text-color: #000;
+          --article-title-shadow-color: #ccc;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background-color: black;
+          --color: white;
+          --link-color: #e37f98;
+          --quote-color: #e37f98;
+          --shadow-color: #58354d;
+          --article-title-text-color: #fff;
+          --article-title-shadow-color: #333;
+        }
       }
     </style>
 
@@ -79,10 +98,13 @@
 
   <body>
     <header>
-      <img
-        src="komayo.svg"
-        alt="Komayō"
-        title="کومایو">
+      <picture>
+        <source srcset="komayo-light.svg" media="(prefers-color-scheme: light)">
+        <img
+          src="komayo-dark.svg"
+          alt="Komayō"
+          title="کومایو">
+      </picture>
     </header>
 
 
@@ -116,9 +138,5 @@
 
 </article>
 
-
-    <footer>
-      &copy; 2023 Cyril Veltin
-    </footer>
   </body>
 </html>
