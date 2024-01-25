@@ -1,10 +1,10 @@
 @charset "utf-8";
 
 :root {
-  --font-primary: 'Garamond', serif;
-  --font-secondary: 'Cinzel', serif;
+  --font-primary: Trattatello, fantasy;
+  --font-secondary: 'Courier New', monospace;
   --font-tertiary: 'Playfair Display', serif;
-  --font-quaternary: 'Lato', sans-serif;
+  --font-quaternary: Lato, sans-serif;
 }
 
 body {
