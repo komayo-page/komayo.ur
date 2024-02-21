@@ -111,7 +111,7 @@ body > nav picture > img {
 }
 
 body > nav > a > picture > img {
-  opacity: .1;
+  opacity: .2;
 }
 
 body > nav > a > picture > img:hover {
