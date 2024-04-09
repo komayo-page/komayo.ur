@@ -91,6 +91,8 @@ body > article h2 {
 
 body > article > section p:first-of-type::first-letter {
   initial-letter: 2;
+  padding-right: .3rem;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 
