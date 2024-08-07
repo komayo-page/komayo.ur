@@ -1,352 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://komayo.page/</loc>
-    <lastmod>2023-06-26</lastmod>
-  </url>
-
-    <url>
-      <loc>https://bn.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://en.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-      <url>
-        <loc>https://en.komayo.page/stories/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-
-      <url>
-        <loc>https://en.komayo.page/stories/encounter-at-the-bar-de-la-regence/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-
-      <url>
-        <loc>https://en.komayo.page/stories/pride-or-the-champion-s-soul/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-
-
-
-
-      <url>
-        <loc>https://en.komayo.page/about/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-
-      <url>
-        <loc>https://en.komayo.page/komayo-chess/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-    <url>
-      <loc>https://fa.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://fr.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-      <url>
-        <loc>https://fr.komayo.page/recits/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-
-      <url>
-        <loc>https://fr.komayo.page/recits/rencontre-au-bar-de-la-regence/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-
-      <url>
-        <loc>https://fr.komayo.page/recits/l-orgueil-ou-l-ame-du-champion/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-
-      <url>
-        <loc>https://fr.komayo.page/recits/l-amour-sous-les-cerisiers/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-
-      <url>
-        <loc>https://fr.komayo.page/recits/le-souffle-du-renard/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-
-      <url>
-        <loc>https://fr.komayo.page/recits/la-genese-de-l-enchanteresse/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-
-      <url>
-        <loc>https://fr.komayo.page/a-propos/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-
-      <url>
-        <loc>https://fr.komayo.page/le-jeu-du-roi/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-    <url>
-      <loc>https://gu.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://hi.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://id.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://ja.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-      <url>
-        <loc>https://ja.komayo.page/yaku/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-
-      <url>
-        <loc>https://ja.komayo.page/ogi/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-    <url>
-      <loc>https://jv.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://kn.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://ko.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://lo.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://ml.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://mr.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://my.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://or.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://pa.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://ta.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://te.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://th.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-      <url>
-        <loc>https://th.komayo.page/game-makruk-khong-kasat/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-    <url>
-      <loc>https://ur.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://vi.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-    <url>
-      <loc>https://zh.komayo.page/</loc>
-      <lastmod>2023-06-26</lastmod>
-    </url>
-
-
-
-
-
-
-
-
-      <url>
-        <loc>https://zh.komayo.page/wang-qi/</loc>
-        <lastmod>2023-06-26</lastmod>
-      </url>
-</urlset>
+Puma caught this error: Error loading the 'sqlite3' Active Record adapter. Missing a gem it depends on? can't activate sqlite3 (~> 1.4), already activated sqlite3-2.0.3-arm64-darwin. Make sure all dependencies are added to Gemfile. (LoadError)
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/bundler-2.5.5/lib/bundler/rubygems_integration.rb:237:in `block (2 levels) in replace_gem'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/connection_adapters/sqlite3_adapter.rb:14:in `<top (required)>'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:34:in `require'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/connection_adapters/abstract/connection_handler.rb:333:in `resolve_pool_config'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/connection_adapters/abstract/connection_handler.rb:134:in `establish_connection'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/connection_handling.rb:53:in `establish_connection'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/railtie.rb:304:in `block (2 levels) in <class:Railtie>'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:97:in `class_eval'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:97:in `block in execute_hook'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:87:in `with_execution_control'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:92:in `execute_hook'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:78:in `block in run_load_hooks'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:77:in `each'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/lazy_load_hooks.rb:77:in `run_load_hooks'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/base.rb:338:in `<module:ActiveRecord>'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/base.rb:15:in `<top (required)>'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.17/lib/zeitwerk/kernel.rb:34:in `require'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/query_cache.rb:29:in `run'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:29:in `before'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:426:in `block in make_lambda'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:202:in `block (2 levels) in halting'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:707:in `block (2 levels) in default_terminator'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `catch'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `block in default_terminator'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:203:in `block in halting'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `block in invoke_before'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `each'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `invoke_before'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:109:in `run_callbacks'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:129:in `run'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:125:in `run!'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:78:in `block in run!'
+<internal:kernel>:90:in `tap'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:75:in `run!'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/middleware/static.rb:25:in `call'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/rack-3.1.7/lib/rack/sendfile.rb:114:in `call'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:536:in `call'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/configuration.rb:272:in `call'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/request.rb:100:in `block in handle_request'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/request.rb:99:in `handle_request'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/server.rb:464:in `process_client'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/server.rb:245:in `block in run'
+/Users/cyril/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/puma-6.4.2/lib/puma/thread_pool.rb:155:in `block in spawn_thread'
