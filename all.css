@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@media (orientation: landscape) {
+  :where(html) {
+    --content-size: 100vh;
+  }
+}
+
+@media (orientation: portrait) {
+  :where(html) {
+    --content-size: 100vw;
+  }
+}
+
+:where(html) {
+  --color-background: #ece9d6;
+  --color-text: #292523;
+  --color-title: #000;
+  --color-link: #6d071a;
+  --color-text-subtle: #444;
+  --color-shadow: #c2bfad;
+
+  --font-family-body: "Baskerville",
+                      "Libre Baskerville",
+                      "Baskerville Old Face",
+                      "New Baskerville",
+                      "Century Schoolbook",
+                      ui-serif,
+                      serif;
+
+  --font-family-title: "Didot",
+                      "Didot LT Std",
+                      "Bodoni MT",
+                      "Bodoni 72",
+                      "Modern No. 20",
+                      "GFS Didot",
+                      serif;
+
+  --font-size-1: calc(var(--content-size)/14);
+  --font-size-2: calc(var(--content-size)/20);
+  --font-size-3: calc(var(--content-size)/26);
+  --font-size-4: calc(var(--content-size)/32);
+
+  --side-padding: calc(1vw + 8px);
+}
+
+:root {
+  font-size: var(--font-size-4);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family-body);
+  line-height: 1.7;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: var(--side-padding) 0;
+  overflow-x: hidden;
+}
+
+html > *,
+body > main,
+body > main > * {
+  display: flex;
+  flex-flow: column;
+  row-gap: var(--side-padding);
+}
+
+body > *:not(main),
+body > main > * > *:not(picture) {
+  margin: 0;
+  padding-right: var(--side-padding);
+  padding-left: var(--side-padding);
+}
+
+body > main > article > * {
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+
+body > main > article > picture > img {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+main > article p {
+  text-align: justify;
+}
+
+h1 {
+  color: var(--color-title);
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-1);
+  line-height: 1.3;
+  text-shadow: .03em .03em var(--color-shadow);
+}
+
+a {
+  color: var(--color-link);
+}
+
+footer {
+  color: var(--color-text-subtle);
+}
+
+footer > p > a {
+  position: absolute;
+  top: var(--side-padding);
+  left: var(--side-padding);
+}
+
+footer > p > a > img {
+  height: 2em;
+  width: 2em;
+}
