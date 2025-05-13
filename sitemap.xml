@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://ur.komayo.page/</loc>
     <lastmod>2023-06-26</lastmod>
+    <image:image>
+      <image:loc>https://ur.komayo.page/img/mysterious-kimono-woman-desert-caravan-persian-moonlight-illustration,w_1024.webp</image:loc>
+      <image:title>پراسرار کیمونو پہنے ہوئی خاتون صحرا میں ایرانی قافلے کے ساتھ چاندنی رات میں - تصویری عکاسی</image:title>
+      <image:caption>پراسرار کیمونو پہنے ہوئی خاتون صحرا میں ایرانی قافلے کے ساتھ چاندنی رات میں - تصویری عکاسی</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://ur.komayo.page/favicon/favicon.svg</image:loc>
+      <image:title>کومایو</image:title>
+      <image:caption>کومایو لوگو</image:caption>
+    </image:image>
   </url>
 </urlset>
